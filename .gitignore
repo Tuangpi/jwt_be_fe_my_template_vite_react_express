@@ -1,0 +1,46 @@
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# Dependency directories
+be/node_modules/
+fe/node_modules/
+
+# Build output
+be/dist/
+be/dist-ssr/
+fe/dist/
+fe/dist-ssr/
+
+# Local environment files
+*.local
+be/.env
+fe/.env
+.env
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Editor settings
+.vscode/*
+!.vscode/extensions.json
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# Prisma
+be/prisma/*.db
+be/prisma/migrations/
+
+# Temporary files
+*.tmp
+*.temp
+
